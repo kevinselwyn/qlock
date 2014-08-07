@@ -1,0 +1,22 @@
+{
+	"name": "qlock",
+	"description": "Alphabetic clock",
+	"author": "Kevin Selwyn <kevinselwyn@gmail.com>",
+	"licenses": [
+		{
+			"type": "GPLv3",
+			"url": "http://gnu.org/licenses/gpl-3.0.html"
+		}
+	],
+	"main": "index.html",
+	"version": "1.0.1",
+	"window": {
+		"title": "qlock",
+		"toolbar": false,
+		"frame": true,
+		"width": 470,
+		"height": 440,
+		"resizable": false,
+		"fullscreen": false
+	}
+}

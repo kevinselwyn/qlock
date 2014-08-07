@@ -1,0 +1,44 @@
+{
+	"1x": {
+		"width": "470",
+		"height": "440",
+		"css": {
+			"#qlock": {
+				"width": "380px",
+				"height": "380px",
+				"margin": "-220px auto",
+				"padding": "30px",
+				"font-size": "30px",
+				"line-height": "38px"
+			}
+		}
+	},
+	".5x": {
+		"width": "235",
+		"height": "220",
+		"css": {
+			"#qlock": {
+				"width": "190px",
+				"height": "190px",
+				"margin": "-110px auto",
+				"padding": "15px",
+				"font-size": "15px",
+				"line-height": "19px"
+			}
+		}
+	},
+	"2x": {
+		"width": "940",
+		"height": "880",
+		"css": {
+			"#qlock": {
+				"width": "760px",
+				"height": "760px",
+				"margin": "-440px auto",
+				"padding": "60px",
+				"font-size": "60px",
+				"line-height": "76px"
+			}
+		}
+	}
+}

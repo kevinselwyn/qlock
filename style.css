@@ -1,0 +1,66 @@
+*{
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	width:inherit;
+	height:inherit;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+#qlock{
+	width:380px;
+	height:380px;
+	margin:-220px auto;
+	padding:30px;
+	top:50%;
+	font:30px/38px "Courier", monospace;
+	color:#ccc;
+	display:block;
+	position:relative;
+}
+#qlock .active{
+	color:#000;
+}
+#qlock .ticks{
+	width:100%;
+	height:100%;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+#qlock .ticks, #qlock .tick{
+	position:absolute;
+}
+#qlock .tick.tick-1{
+	left:0;
+	top:0;
+}
+#qlock .tick.tick-2{
+	right:0;
+	top:0;
+}
+#qlock .tick.tick-3{
+	right:0;
+	bottom:0;
+}
+#qlock .tick.tick-4{
+	left:0;
+	bottom:0;
+}
+#qlock.loading{
+	background:transparent url(images/loading.gif) no-repeat center;
+}
+#qlock.loading .ticks, #qlock.loading .numbers{
+	display:none;
+}

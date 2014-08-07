@@ -1,0 +1,6 @@
+{
+	"default": ["#ffffff", "#cccccc", "#000000"],
+	"inverted": ["#000000", "#333333", "#ffffff"],
+	"fire": ["#d2191a", "#9f1219", "#ffffff"],
+	"water": ["#007fdd", "#334caa", "#ffffff"]
+}
