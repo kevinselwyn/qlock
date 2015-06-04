@@ -17,7 +17,7 @@ linux: linux-package
 mac-prepare:
 	mkdir -p build/mac/
 	if [ ! -d build/mac/$(NAME).app ] ; then \
-		curl -O $(NEW_APP_PATH)/$(NEW_APP).zip ; \
+		curl -O -L $(NEW_APP_PATH)/$(NEW_APP).zip ; \
 		unzip $(NEW_APP).zip -d $(NEW_APP) ; \
 		mv $(NEW_APP)/node-webkit.app build/mac/$(NAME).app ; \
 		rm -r $(NEW_APP) $(NEW_APP).zip ; \
